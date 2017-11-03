@@ -1,0 +1,32 @@
+@import url('https://fonts.googleapis.com/css?family=Fira+Mono');
+
+html {
+  background-color: #333;
+  font-family: 'Fira Mono', monospace;
+  font-weight: 400;
+  color: #eee;
+  line-height: 1.5em;
+  font-size: 14px;
+}
+
+pre {
+  margin: 0;
+}
+
+span.tab {
+  padding-left: 2em;
+}
+
+a,
+a:visited {
+  color: #eee;
+}
+
+span.medium {
+  font-weight: bold;
+}
+
+span.arrow {
+  color: #aaa;
+  padding-right: 0.5em;
+}

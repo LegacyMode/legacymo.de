@@ -30,3 +30,27 @@ span.arrow {
   color: #aaa;
   padding-right: 0.5em;
 }
+
+.last::after {
+  content: "";
+  display: inline-block;
+  margin-left: 0.25em;
+  background-color: #eee;
+  vertical-align: top;
+  width: 0.75em;
+  height: 1.5em;
+  -webkit-animation: blink 1s step-end infinite;
+  animation: blink 1s step-end infinite;
+}
+
+@-webkit-keyframes blink {
+  0% { opacity: 1.0; }
+  50% { opacity: 0.0; }
+  100% { opacity: 1.0; }
+}
+
+@keyframes blink {
+  0% { opacity: 1.0; }
+  50% { opacity: 0.0; }
+  100% { opacity: 1.0; }
+}
